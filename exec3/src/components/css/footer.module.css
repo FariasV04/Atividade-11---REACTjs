@@ -1,0 +1,26 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: cent;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+footer h6{
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer img{
+    width: 40px;
+    margin-left: 15px;
+}

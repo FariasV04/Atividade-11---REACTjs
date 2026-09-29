@@ -1,0 +1,82 @@
+
+.contato{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-right: 19px solid rgb(199, 93, 93);
+    border-bottom: 15px solid rgb(199, 93, 93);
+    padding: 10px;
+}
+
+.formulario{
+    width: 40%;
+    height: 250px;
+    background-color:white;
+}
+
+
+.azulclaro{
+    width: 40%;
+    height: 240px;
+    background-color: rgb(35, 168, 172);
+    padding: 25px;
+}
+
+.pedido{
+    height: 180px;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button{
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h5{
+    color: rgb(63, 30, 122);
+    font-size: 40px;
+}
+
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.container{
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes img{
+    width: 90px;
+}
